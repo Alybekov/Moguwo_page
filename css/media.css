@@ -1,0 +1,164 @@
+@media screen and (max-width: 1134px) {
+    .input-form {
+        width: 40%;
+        padding: 10px 50px 10px 11px;
+        margin-right: 0;
+    }
+
+    .form-block {
+        padding: 10px 0px 10px 7px;
+        width: 34%;
+    }
+
+    .form-btn {
+        margin: 7px auto;
+        padding: 10px 50px 10px 11px;
+    }
+
+    .input-form::placeholder {
+        font-size: 14px;
+    }
+
+
+
+    .main-section-block {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-link {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .main-nav {
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    .main-nav-item {
+        padding-top: 10px;
+    }
+
+    .main-title {
+        font-size: 30px;
+        padding: 100px 8px 100px;
+    }
+
+    .form-block {
+        width: 30%;
+        margin-bottom: 150px;
+        margin-top: 75px;
+        padding: 10px 0px 10px 7px;
+    }
+
+    .input-form {
+        padding: 10px 11px 10px 11px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .form-btn {
+        padding: 10px 15px 10px 15px;
+    }
+
+
+    .header-top {
+        display: block;
+        text-align: center;
+    }
+
+    .main-title::after {
+        background-position: center;
+    }
+
+    .blocks {
+        background: linear-gradient(to bottom, #202242 0%, #202242 50%, #ffe13e 50%, #ffe13e 100%);
+    }
+
+    .column {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .features-block {
+        padding: 70px 0 43px;
+    }
+
+    .features-columns {
+        margin-top: 25px;
+    }
+
+    .features-item {
+        width: 50%;
+    }
+
+    .features-title {
+        font-size: 38px;
+    }
+
+    .features-title p {
+        font-size: 16px;
+    }
+
+    .clients-link {
+        width: 35%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .block-person {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .main-title::after {
+        left: 38%;
+    }
+
+    .features-block {
+        padding: 50px 0 43px;
+    }
+
+    .features-title h4 {
+        font-size: 30px;
+    }
+
+    .features-title p {
+        font-size: 13px;
+    }
+
+    .features-item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .clients-block p {
+        margin-right: 0;
+    }
+
+    .clients-link {
+        width: 100%;
+    }
+
+    .form-btn {
+        padding: 7px 5px 7px 5px;
+    }
+
+    .footer-block p {
+        padding: 65px 0;
+    }
+
+}

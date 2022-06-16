@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #202242;
+    line-height: 1.3;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.header-top {
+    padding: 29px 0 52px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav-item {
+    display: inline-block;
+}
+
+.main-nav-link {
+    margin-left: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #202242;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.main-nav-link:hover {
+    color: gold;
+}
+
+.main-block-inner {
+    background: url(../images/background-image.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 48px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    padding: 209px 0 201px 8px;
+    margin: 0;
+    position: relative;
+}
+
+.main-title::after {
+    content: "";
+    position: absolute;
+    background: url(../images/symbol.png) 49% 100% no-repeat;
+    width: 103px;
+    height: 111px;
+    top: 64%;
+    left: 46%;
+}
+
+.form-block {
+    display: inline-block;
+    background: #ddd;
+    padding: 20px 0px 20px 7px;
+    width: 48%;
+    margin-bottom: 226px;
+}
+
+.input-form {
+    border: none;
+    width: 50%;
+    padding: 20px 76px 16px 23px;
+    margin: 0 4px 0 0;
+}
+
+.input-form::placeholder {
+    color: #2d2d2d;
+    font-size: 18px;
+}
+
+.form-btn {
+    font-weight: 700;
+    color: #fff;
+    background: #ffe13e;
+    border: none;
+    padding: 20px 24px 17px 12px;
+}
+
+.blocks {
+    background: #202242;
+    background: linear-gradient(to right, #202242 0%, #202242 50%, #ffe13e 50%, #ffe13e 100%);
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    padding: 81px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.column p {
+    flex-grow: 1;
+}
+
+.column-title {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+
+.column-1 p {
+    margin: 8px 86px 0 82px;
+    line-height: 1.8;
+}
+
+.column-2 p {
+    margin: 9px 70px 4px 93px;
+    line-height: 1.8;
+}
+
+.first-title {
+    padding: 0 19px 0 0;
+}
+
+.column-link {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 13px 53px;
+    font-size: 18px;
+    font-weight: 700;
+    align-self: center;
+    margin: 33px 16px 0 0px;
+}
+
+.column-link:hover {
+    background-color: gold;
+}
+
+.second-link {
+    margin: 29px 0px 0 10px
+}
+
+.features-block {
+    padding: 103px 0 73px;
+    background: url(../images/symbol-2.png) no-repeat;
+    background-position: center;
+    background-color: #fbf8f1;
+}
+
+.features-title {
+    text-align: center;
+}
+
+.features-title h4 {
+    font-size: 48px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.features-title p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.features-columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+}
+
+.features-item h6 {
+    font-size: 30px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    color: #f4d320;
+    margin: 0 16px 22px 0;
+
+}
+
+.features-item h6::before {
+    content: "";
+    display: block;
+    height: 130px;
+    width: 130px;
+    margin: 0 auto 23px;
+    padding: 30px 0 0 0;
+    border-bottom: 3px solid #ddd;
+}
+
+.sup-title::before {
+    content: "";
+    background: url(../images/ic-person.png) no-repeat;
+}
+
+.tech-title::before {
+    content: "";
+    background: url(../images/ic-cloud.png) no-repeat;
+}
+
+.data-title::before {
+    content: "";
+    background: url(../images/ic-coin.png) no-repeat;
+}
+
+.monit-title::before {
+    content: "";
+    background: url(../images/ic-computer.png) no-repeat;
+}
+
+.features-item p {
+    margin: 0 31px 0 7px;
+    line-height: 1.7;
+    flex-grow: 1;
+}
+
+.features-item a {
+    padding: 17px 22px 0 0;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.clients-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+    flex-wrap: wrap;
+}
+
+.main-section-block {
+    width: 33%;
+}
+
+.section-link {
+    display: flex;
+    flex-wrap: wrap;
+    width: 66%;
+}
+
+.clients-block h5 {
+    font-size: 36px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.clients-block p {
+    margin-right: 63px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+
+.clients-link {
+    display: block;
+    margin-top: 20px;
+    margin-right: 21px;
+}
+
+.comments-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.block-person {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background: #faf9f9;
+    color: #a4a4a4;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.block-person p {
+    flex-grow: 1;
+    line-height: 1.7;
+    margin: 21px 4px 11px 17px;
+}
+
+.block-person span {
+    color: #696969;
+    font-weight: 700;
+    padding: 5px 0 0 25px;
+    font-size: 16px;
+}
+
+.photo-block a {
+    display: block;
+    text-decoration: none;
+}
+
+.photo-block img {
+    position: absolute;
+    border-radius: 50%;
+    width: 79px;
+    bottom: -40px;
+    right: 26px;
+}
+
+.footer {
+    background: #202242;
+    margin-top: 125px;
+}
+
+.footer-block p {
+    text-align: center;
+    position: relative;
+    color: #fff;
+    padding: 80px 0;
+    margin: 0;
+}
+
+.footer-block p::before {
+    content: "";
+    position: absolute;
+    background: url(../images/symbol-3png.png)no-repeat;
+    width: 31px;
+    height: 34px;
+    top: 21%;
+    left: 49%;
+}
